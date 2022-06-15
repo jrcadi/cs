@@ -1,14 +1,16 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// 
+/// </summary>
 namespace PasswordCreator {
-    public class LowerLetter:Letter{ //子クラスの追加 継承
-        public LowerLetter(Random random):base(random){ //p57 コンストラクタ 
+    class LowerLetter : Letter {
+        public LowerLetter(Random random) : base(random) {
         }
-        public override string GetLetter(){ //メソッドのオーバライド
+        public override string GetLetter() {
             char c = (char)random.Next(97, 123);
             return c.ToString();
         }
