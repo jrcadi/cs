@@ -1,5 +1,6 @@
 @echo off
 
+
 set srcPath=%~dp0*.cs
 set exePath=%~dp0%~n0.exe
 
@@ -16,4 +17,7 @@ pause
 
 :SUCCESS
 %exePath%
+
+pause
+
 
