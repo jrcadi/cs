@@ -1,0 +1,10 @@
+# Visual Studio / .NET build output
+bin/
+obj/
+.vs/
+*.exe
+*.pdb
+*.suo
+*.user
+*.cache
+.DS_Store
